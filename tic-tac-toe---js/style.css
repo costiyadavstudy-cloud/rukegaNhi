@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.game {
+    height: 94vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.box {
+    width: 310px;
+    height: 310px;
+    border: 2px solid white;
+    box-shadow: -1px -1px 20px 0px #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.boxes {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    color: white;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

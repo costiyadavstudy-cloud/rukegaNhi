@@ -2,11 +2,12 @@ import { useState } from 'react'
 
 
 function App() {
-  let [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
     function CounterFn() {
       setCount(count + 1)
       setCount(count + 1)
       setCount(count + 3)
+      // the count will be 3 in next render
     }
   return (
     <>
