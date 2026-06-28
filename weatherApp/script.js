@@ -1,0 +1,9 @@
+fetch('http://api.weatherapi.com/v1/forecast.json?key=2ac8411c81f742c8a42154014262806&q=delhi&days=3')
+.then((r)=>{
+    r.json().then((response)=>{
+        console.log(response)
+    })
+})
+.catch(()=>{
+    console.log('error')
+})
