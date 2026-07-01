@@ -6,21 +6,51 @@
     <title>Weather App 🌤️</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="move">
-    <div id="sun">
-        <div id="ray1" class="ray"></div>
-        <div id="ray2" class="ray"></div>
-        <div id="ray3" class="ray"></div>
-        <div id="ray4" class="ray"></div>
-        <div id="ray5" class="ray"></div>
-        <div id="ray6" class="ray"></div>
-        <div id="ray7" class="ray"></div>
-        <div id="ray8" class="ray"></div>
+    <div id="intro">
+        <div class="move">
+            <div id="sun">
+                <div id="ray1" class="ray"></div>
+                <div id="ray2" class="ray"></div>
+                <div id="ray3" class="ray"></div>
+                <div id="ray4" class="ray"></div>
+                <div id="ray5" class="ray"></div>
+                <div id="ray6" class="ray"></div>
+                <div id="ray7" class="ray"></div>
+                <div id="ray8" class="ray"></div>
+            </div>
+        </div>
+        <div id="welcome">Welcome To WeatherCompass</div>
+
     </div>
-    
-</div>
-    <div id="welcome">Welcome To WeatherCompass</div>
+    <div class="detailsForWeather">
+        <div class="details" id="country">
+            <label for="country">Enter country Name</label>
+            <input class="detail" id="countryName" type="text" name="country">
+        </div>
+        <div class="details" id="city">
+            <label for="cityName">Enter City name</label>
+            <input class="detail" id="cityName" type="text" name="cityName">
+        </div>
+        <div class="details" id="days">
+            <label for="daysNum">Enter Number of days from today</label>
+            <input class="detail" id="daysNum" type="text" name="daysNum">
+        </div>
+    </div>
+    <div class="coatForBtn">
+        <button id="Show">Its Compass Time</button>
+    </div>
+    <div class="information">
+        <div class="info" id="maxTemp">maximum temperature</div>
+        <div class="info" id="mainTemp">minimum temperature</div>
+        <div class="info" id="AvgHumidity">Humidity</div>
+        <div class="info" id="AvgTemp">Average temperature</div>
+        <div class="info" id="status">status</div>
+        <div class="info" id="rain possiblity">rain possiblity</div>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>

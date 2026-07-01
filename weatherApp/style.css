@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(48, 47, 47);
 }
 
 #welcome {
@@ -16,7 +16,8 @@ body {
     align-items: center;
     margin: auto;
     position: relative;
-    top: 200px;
+    margin: 180px 0px 30px 0px;
+    /* top: 200px; */
     font-size: 40px;
     animation: text-up 1.5s cubic-bezier(0, 1.18, 1, 1) 0s 1 forwards;;
 }
@@ -34,7 +35,7 @@ body {
 }
 .move{
     animation: enter-sun 1.5s cubic-bezier(0, 1.18, 1, 1) 0s 1 forwards;
-    ;
+
 }
 
 .ray {
@@ -120,4 +121,54 @@ body {
         transform: translateY(-60px);
         opacity: 1;
     }
+}
+
+.detailsForWeather{
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.details{
+    margin: 10px;
+    font-size: 20px;
+}
+.detail{
+    border: 0;
+    outline: 0;
+    padding: 0px 20px;
+    background-color: rgb(97, 96, 96);
+    font-size: 25px;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Show{
+    background-color: black;
+    border: 0;
+    padding: 10px;
+    
+}
+.coatForBtn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.information{
+    /* background-color: rgb(255, 165, 105); */
+    width: 80%;
+    height: 150px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.info{
+    background-color: rgb(90, 48, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
